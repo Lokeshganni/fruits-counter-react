@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.main-container {
+  background-color: #ffd569;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.sub-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 2%;
+  margin: 3% 5%;
+}
+
+.both-fruit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .both-fruit-container {
+    flex-direction: row;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.fruit {
+  width: 80%;
+}
+
+.heading {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border-width: 0;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.count {
+  color: #ffd569;
+}
